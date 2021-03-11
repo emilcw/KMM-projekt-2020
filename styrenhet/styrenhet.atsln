@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "styrenhet", "styrenhet\styrenhet.cproj", "{DCD16BAC-E2D0-44AB-88D6-0E7C758FC0FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCD16BAC-E2D0-44AB-88D6-0E7C758FC0FC}.Debug|AVR.ActiveCfg = Debug|AVR
+		{DCD16BAC-E2D0-44AB-88D6-0E7C758FC0FC}.Debug|AVR.Build.0 = Debug|AVR
+		{DCD16BAC-E2D0-44AB-88D6-0E7C758FC0FC}.Release|AVR.ActiveCfg = Release|AVR
+		{DCD16BAC-E2D0-44AB-88D6-0E7C758FC0FC}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
