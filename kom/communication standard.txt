@@ -1,0 +1,25 @@
+This is the message standrad between KOM and PC:
+
+    All messages shall follow the form command,argument0,argument1,...,argumentN;
+
+    PC -> KOM:
+        manual-move,forward;
+        manual-move,forward-left;
+        manual-move,forward-right;
+        manual-move,left;
+        manual-move,right;
+        manual-move,stop;
+        manual-move,back;
+        manual-move,calibrate;
+	start;
+
+    KOM -> PC:
+        mode,manual;
+        mode,auto;
+        status,<robot status as string>;
+        gyro,<angle>;
+	lidarangle,<angle>; 
+        move,<x>,<y>;
+        position,<x>,<y>;
+        motorspeed,<(motor1, motor2)>,<speed>;
+        map,<x>, <y>, <type(I,O,U,S)>;

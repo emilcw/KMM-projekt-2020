@@ -1,0 +1,16 @@
+
+1. wiringPi installed?
+Kolla om biblioteket är installerat på pien
+Terminal: "gpio -v"
+
+2. För att kompilera c++ kod som använder sig av wiringPi biblioteket.
+
+Terminal: "g++ -g -o program program.cpp -lwiringPi" -- kompilerar
+		"sudo ./program" -- Kör program
+
+Det märktes då vi inte kunde hitta funktioner tillhörande wiringPi-library
+
+
+3. Configure UART on Raspberry pi(gäller inte oss, då vi inte har uart till 
+	sudo raspi-config( enable UART)
+
